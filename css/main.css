@@ -3811,7 +3811,13 @@ body, * {
       margin-right: 0; }
   .certificates .item1, .certificates .item2, .certificates .item3, .certificates .item4, .certificates .item5,
   .certificates .item6, .certificates .item7, .certificates .item8, .certificates .item9, .certificates .item10 {
-    width: 48%; } }
+    width: 48%; }
+  #de .header__nav, #ru .header__nav, #ru__nav, #de__nav {
+    display: none; }
+  #de .header__burger, #ru .header__burger, #ru__burger, #de__burger {
+    display: block; }
+  #de .header__callback, #ru .header__callback, #ru__callback, #de__callback {
+    margin-right: 32px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
@@ -3901,7 +3907,11 @@ body, * {
         -ms-flex-order: 2;
             order: 2; }
   .our_services__item4 .item_content {
-    padding-bottom: 0; } }
+    padding-bottom: 0; }
+  #de .header__top {
+    padding: 22px 0; }
+  #de .header__callback {
+    display: none; } }
 
 @media only screen and (max-width: 670px) {
   .header__top {
